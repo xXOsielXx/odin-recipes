@@ -4,24 +4,28 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Odin Recipes</title>
-	<link rel="stylesheet" href="" type="text/css">
+	<link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-	<h1>Odin Recipes</h1>
-	<h3>Important!</h3>
-	<p>The information presented here is taken from allrecipes.com</p>
+	<div class="main_container">
+		<h1>Odin Recipes</h1>
+		<div class="important">
+			<h3 class="important__title">Important!</h3>
+			<p class="important__para">The information presented here is taken from allrecipes.com</p>
+		</div>
 
-	<img src="https://www.allrecipes.com/thmb/oyOd5VR6N6nQZNfgZ86LDbtjY_o=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/220164-ClassicCubanStylePicadilloi-ddmfs-1x1-0250-761836c2b08b499d858d16d581bcd290.jpg" alt="Classic Cuban-Style Picadillo" width="500px" height="320px">
+		<img class="cover" src="https://www.allrecipes.com/thmb/oyOd5VR6N6nQZNfgZ86LDbtjY_o=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/220164-ClassicCubanStylePicadilloi-ddmfs-1x1-0250-761836c2b08b499d858d16d581bcd290.jpg" alt="Classic Cuban-Style Picadillo" width="500px" height="320px">
 
-	<ul>
-		<li><a href="recipes/classic-cuban-style-picadillo.html">Classic Cuban-Style Picadillo</a></li>
-		<li><a href="recipes/cuban-ropa-vieja.html">Cuban Ropa Vieja</a></li>
-		<li><a href="recipes/cuban-tamales.html">Cuban Tamales</a></li>
-	</ul>
+		<ul class="recipe_list">
+			<li><a href="recipes/classic-cuban-style-picadillo.html">Classic Cuban-Style Picadillo</a></li>
+			<li><a href="recipes/cuban-ropa-vieja.html">Cuban Ropa Vieja</a></li>
+			<li><a href="recipes/cuban-tamales.html">Cuban Tamales</a></li>
+		</ul>
+	</div>
 
 	<footer>
-		<h2>Sources</h2>
-		<ul>
+		<h2 class="footer_title">Sources</h2>
+		<ul class="footer_list">
 			<li><a href="https://github.com/xXOsielXx/odin-recipes" target="_blank" rel="noopener noreferrer">The website repository</a></li>
 			<li><a href="https://www.allrecipes.com" target="_blank" rel="noopener noreferrer">allrecipes</a></li>
 			<li><a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">The Odin Project</a></li>
