@@ -5,10 +5,12 @@
 }
 
 html {
-	font-family: Helvetica, Arial, sans-serif;
+	position: relative;
+	min-height: 100%;
 }
 
 body {
+	font-family: Helvetica, Arial, sans-serif;
 	background: linear-gradient(#ff7600, #ff6000);
 	color: #ddd;
 	text-shadow: 2px 2px 8px #000;
@@ -36,7 +38,7 @@ h1 {
 }
 
 #main-container {
-	margin-bottom: 64px;
+	margin-bottom: 232px;
 }
 
 .container {
@@ -113,6 +115,10 @@ a {
 }
 
 footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 	background: #666;
 	padding: 20px;
 }
